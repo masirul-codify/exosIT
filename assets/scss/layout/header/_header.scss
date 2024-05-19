@@ -1,0 +1,58 @@
+@use '../../utils' as *;
+
+/* Header Layout One */
+header{
+    &.layout-one{
+        background-color: $white-color;
+        .container-fluid{
+            padding: 0px 150px;
+            @include lg{
+                padding: 0px 50px;
+            }
+        } 
+    }
+
+    .navbar{
+        // display: flex;
+        &_header-logo{
+            padding: 42px 0px;
+        }
+        &-nav{
+            // display: flex;
+            // flex-direction: row;
+            li{
+                margin-right: 55px;
+                @include xl{
+                    margin-right: 30px;
+                }
+            }
+            .nav-link{
+                color: $body-color;  
+                font-family: $body-font;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;  
+                text-transform: capitalize;
+                &.active{
+                    color: $title-color;
+                    font-family: $body-font;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 120%;  
+                    text-transform: capitalize;
+                    @include xl{
+                        font-size: 15px;
+                    }
+                }
+                @include xl{
+                    font-size: 15px;
+                }
+            }
+        }
+        &-btn-wrapper{
+
+        }
+    }
+}
