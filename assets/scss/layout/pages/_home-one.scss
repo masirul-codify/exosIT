@@ -1,5 +1,8 @@
+@use '../../utils' as *;
 /* Home One */
-.hero-area {
+
+/* Hero area style1 */
+.hero-area{
     &.style1{
         position: relative;
         overflow: hidden;
@@ -116,5 +119,49 @@
                 z-index: 3;
             } 
         }
+    }
+}
+
+/* Feature area style1 */
+.feature-area{
+    position: relative;
+    &_shape1{
+        position: absolute;
+        top: 115px;
+        left: 146px;
+        z-index: 2;
+    }
+    &_shape2{
+        position: absolute;
+        top: 509px;
+        left: 101px;
+        z-index: 2;
+    }
+    &_shape3{
+        position: absolute;
+        bottom: 170px;
+        left: 122px;
+        z-index: 2;
+    }
+    &_shape4{
+        position: absolute;
+        top: 62px;
+        right: 178px;
+        z-index: 2;
+    }
+    &_shape5{
+        position: absolute;
+        top: 416px;
+        right: 90px;
+        z-index: 2;
+    }
+    &_shape6{
+        position: absolute;
+        bottom: 164px;
+        right: 177px;
+        z-index: 2;
+    }
+    &.style1{
+
     }
 }

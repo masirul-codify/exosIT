@@ -37,15 +37,16 @@
   --white-color: #ffffff;
   --light-color: #656565;
   --black-color: #000000;
-  --gray-color: #F5F5F5;
-  --border-color: #003b184d;
+  --gray-color: #FAECE5;
+  --gray-color2: #FEFEFE;
+  --border-color: #4a506033;
   --fonts-poppins: "Poppins", sans-serif;
   --fonts-amatic: "Amatic SC", sans-serif;
   --fonts-playfair: "Playfair Display", serif;
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1296px;
   --container-gutters: 30px;
-  --section-space: 100px;
+  --section-space: 150px;
   --section-space-mobile: 80px;
   --section-title-space: 60px;
   --ripple-ani-duration: 5s;
@@ -441,6 +442,41 @@
   font-style: normal;
   font-weight: 400;
   line-height: 180%; /* 32.4px */
+}
+
+.fancy-box {
+  padding: 44px 42px 32px 42px;
+  background-color: var(--gray-color2);
+  border: 1px solid var(--border-color);
+  margin-top: 24px;
+}
+.fancy-box_icon {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  border-radius: 10px;
+  background: var(--gray-color);
+}
+.fancy-box_content {
+  margin-top: 20px;
+}
+.fancy-box_title {
+  color: var(--title-color);
+  font-family: var(--fonts-playfair);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 42px */
+  margin-bottom: 0;
+}
+.fancy-box_desc {
+  color: var(--body-color);
+  font-family: var(--fonts-poppins);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 28.8px */
 }
 
 * {
@@ -4035,7 +4071,7 @@ textarea {
 }
 
 .gy-25 {
-  --bs-gutter-y: 25px;
+  --bs-gutter-y: 25px!important;
 }
 
 .gy-30 {
@@ -4140,6 +4176,7 @@ header .navbar-nav .nav-link:hover {
   font-weight: 600;
 }
 /* Home One */
+/* Hero area style1 */
 .hero-area.style1 {
   position: relative;
   overflow: hidden;
@@ -4255,6 +4292,47 @@ header .navbar-nav .nav-link:hover {
   top: 60%;
   right: 1%;
   z-index: 3;
+}
+
+/* Feature area style1 */
+.feature-area {
+  position: relative;
+}
+.feature-area_shape1 {
+  position: absolute;
+  top: 115px;
+  left: 146px;
+  z-index: 2;
+}
+.feature-area_shape2 {
+  position: absolute;
+  top: 509px;
+  left: 101px;
+  z-index: 2;
+}
+.feature-area_shape3 {
+  position: absolute;
+  bottom: 170px;
+  left: 122px;
+  z-index: 2;
+}
+.feature-area_shape4 {
+  position: absolute;
+  top: 62px;
+  right: 178px;
+  z-index: 2;
+}
+.feature-area_shape5 {
+  position: absolute;
+  top: 416px;
+  right: 90px;
+  z-index: 2;
+}
+.feature-area_shape6 {
+  position: absolute;
+  bottom: 164px;
+  right: 177px;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=style.css.map */

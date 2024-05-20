@@ -8,10 +8,10 @@
     --light-color: #656565;
     --black-color: #000000; 
   
-    --gray-color: #F5F5F5;   
-  
+    --gray-color: #FAECE5;   
+    --gray-color2: #FEFEFE;
     // --border-color: 1px solid #003b184d;
-    --border-color: #003b184d; 
+    --border-color: #4a506033; 
   
     --fonts-poppins: "Poppins", sans-serif;
     --fonts-amatic: "Amatic SC", sans-serif;
@@ -19,7 +19,7 @@
     --icon-font: "Font Awesome 6 Pro";
     --main-container: 1296px;
     --container-gutters: 30px;
-    --section-space: 100px;
+    --section-space: 150px;
     --section-space-mobile: 80px;
     --section-title-space: 60px;
     --ripple-ani-duration: 5s;
@@ -37,6 +37,7 @@
   $black-color : var(--black-color);
   
   $gray-color : var(--gray-color);
+  $gray-color2 : var(--gray-color2);
   
   
   $border-color : var(--border-color);

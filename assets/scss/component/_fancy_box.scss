@@ -1,0 +1,35 @@
+@use '../utils' as *;
+.fancy-box{
+    padding: 44px 42px 32px 42px;
+    background-color: $gray-color2;
+    border: 1px solid $border-color;
+    margin-top: 24px;  
+    &_icon {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        border-radius: 10px;
+        background: $gray-color;
+    }
+    &_content{
+        margin-top: 20px;
+    }
+    &_title{
+        color: $title-color; 
+        font-family: $title-font;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%; /* 42px */
+        margin-bottom: 0;
+    }
+    &_desc{
+        color: $body-color; 
+        font-family: $body-font;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%; /* 28.8px */
+    }
+}
