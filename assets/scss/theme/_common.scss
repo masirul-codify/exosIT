@@ -46,11 +46,18 @@
 
 .container-fluid{
 	padding: 0px 150px;
+    @include xxl{
+        padding: 0px 50px;
+    }
+    @include xs{
+        padding: 0px 15px;
+    }
 }
 
 @include ml {
     :root {
         --main-container: 1296px;
+        padding: 0;
     }
 }
 
@@ -65,7 +72,7 @@
 }
 @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1230px;
+        max-width: 1296px;
         padding: 0;
     }
 }

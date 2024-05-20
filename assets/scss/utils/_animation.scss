@@ -110,42 +110,42 @@
   // This is for Progress bar animation also has a js code
   @keyframes animate-positive {
     0% {
-      width: 0; 
+      widmp: 0; 
     } 
   }
   
   
-  .scalein.th-animated {
+  .scalein.mp-animated {
     --animation-name: scalein;
   }
   
-  .slidetopleft.th-animated {
+  .slidetopleft.mp-animated {
     --animation-name: slidetopleft;
   }
   
-  .slidebottomright.th-animated {
+  .slidebottomright.mp-animated {
     --animation-name: slidebottomright;
   }
   
-  .slideinleft.th-animated {
+  .slideinleft.mp-animated {
     --animation-name: slideinleft;
   }
   
-  .slideinright.th-animated {
+  .slideinright.mp-animated {
     --animation-name: slideinright;
   }
   
-  .slideinup.th-animated {
+  .slideinup.mp-animated {
     --animation-name: slideinup;
   }
   
-  .slideindown.th-animated {
+  .slideindown.mp-animated {
     --animation-name: slideindown;
   }
-  .rollinleft.th-animated {
+  .rollinleft.mp-animated {
     --animation-name: rollinleft;
   }
-  .rollinright.th-animated {
+  .rollinright.mp-animated {
     --animation-name: rollinright;
   }
   
@@ -160,14 +160,14 @@
   .rollinleft,
   .rollinright {
     opacity: 0;
-    animation-fill-mode: both;
+    animation-fill-mode: bomp;
     animation-iteration-count: 1;
     animation-duration: 1s;
     animation-delay: 0.3s;
     animation-name: var(--animation-name);
   }
   
-  .th-animated {
+  .mp-animated {
     opacity: 1;
   }
   
@@ -266,18 +266,19 @@
   }
   
   .bg-anime-scratch {
-    animation: scratch 4s linear infinite;
+    animation: scratch 7s linear infinite;
     overflow: hidden;
-  }
+    -webkit-animation: scratch 7s linear infinite;
+}
   @keyframes scratch {
     0% {
       height: 0;
     }
     70% {
-      height: 158px;
+      height: 558px;
     }
     100% {
-      height: 158px;
+      height: 758px;
     }
   }
   

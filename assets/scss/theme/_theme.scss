@@ -31,7 +31,6 @@
 /*  1.1 Theme Default
 /*----------------------------------------*/
 
-@import url($font-url);
 
 
 *{
@@ -43,12 +42,19 @@
 /*---------------------------------
 	typography css start 
 ---------------------------------*/
+$font-url : 'https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@400;600&display=swap';
+ 
+@import url($font-url);
 body {
 	font-family: $body-font;
-	font-size: 14px;
-	font-weight: normal;
-	color: $body-color;
-	line-height: 26px;
+	color: $body-color;  
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 180%; /* 32.4px */
+	@include md{
+		font-size: 14px;
+	}
 }
 
 a{
@@ -64,33 +70,43 @@ h6 {
 	font-family: $title-font;
 	color: $title-color;
 	margin-top: 0px;
-	font-weight: 700;
-	line-height: 1.2;
-	// @include tp-transition(color);
+	font-weight: 700; 
 }
 
-h1 {
-	font-size: 48px;
+h1 {  
+	font-size: 50px;
+	font-style: normal; 
+	line-height: 120%; /* 60px */
 }
   
-h2 {
-font-size: 38px;
+h2 { 
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 120%; /* 54px */ 
 }
 
-h3 {
-font-size: 28px;
+h3 { 
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 140%; /* 42px */
 }
 
 h4 {
 font-size: 24px;
 }
 
-h5 {
-font-size: 18px;
+h5 {  
+	font-size: 20px;
+	font-style: normal; 
+	line-height: 120%; /* 24px */ 
 }
 
-h6 {
-font-size: 16px;
+h6 {  
+	font-size: 16px; 
+	font-weight: 600;
+	line-height: 120%; /* 19.2px */
 }
 
 ul {
@@ -99,12 +115,12 @@ ul {
 }
 
 p {
-	font-family: $body-font;
-	font-size: 14px;
+	font-family: $body-font; 
 	font-weight: 400;
-	color: $body-color;
-	margin-bottom: 15px;
-	line-height: 26px;
+	color: $body-color; 
+	font-size: 16px;
+	font-style: normal;
+	line-height: 180%; /* 28.8px */
 }
 
 

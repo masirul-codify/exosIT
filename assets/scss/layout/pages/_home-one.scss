@@ -1,0 +1,120 @@
+/* Home One */
+.hero-area {
+    &.style1{
+        position: relative;
+        overflow: hidden;
+        .shape8{
+            position: absolute;
+            top: 15%;
+            left: 12%;
+            z-index: 2;
+        }
+        .shape9{
+            position: absolute;
+            bottom: 14%;
+            left: 9%;
+            z-index: 2;
+        }
+        .shape13{
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+        }
+        .shape14{
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+        }
+        .shape15{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .shape16{
+            position: absolute;
+            top: 7%;
+            right: 4%;
+            z-index: 3;
+        }
+        .hero-left{
+            position: relative;
+            overflow: hidden;
+            padding: 255px 0px 217px 0px;
+            z-index: 5;
+
+            &_shape10{
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: 2;
+            }
+            &_shape11{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                z-index: 2;
+            }
+            .hero_subtitle{
+                margin-bottom: 0px;
+            }
+            .hero_title{
+                margin-bottom: 2px;
+            }
+            .desc{
+                margin-bottom: 35px;
+            }
+        }
+        .hero-right{
+            position: relative; 
+            img{
+                position: relative;
+                z-index: 3;
+            }
+            &_shape1{
+                position: absolute;
+                top: 0;
+                left: -17%;
+                z-index: 1;
+            }
+            &_shape2{
+                position: absolute;
+                top: 33%;
+                left: -12%;
+                z-index: 3;
+            }
+            &_shape3{
+                position: absolute;
+                top: 77%;
+                left: -8%;
+                z-index: 4;
+            }
+            &_shape4{
+                position: absolute;
+                top: 35%;
+                right: 1%;
+                z-index: 3;
+            }
+            &_shape5{
+                position: absolute;
+                top: 57%;
+                left: -5%;
+                z-index: 3;
+            }            
+            &_shape6{
+                position: absolute;
+                top: 31%;
+                right: 30%;
+                z-index: 3;
+            }
+            &_shape7{
+                position: absolute;
+                top: 60%;
+                right: 1%;
+                z-index: 3;
+            } 
+        }
+    }
+}
